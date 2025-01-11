@@ -5,7 +5,7 @@
   
 Работает начиная с Windows Vista. Требуется C++11.  
   
-Доступные методы:
+Доступные методы:  
 -run_Select_Folder_BlockThread  
 -run_Select_Folder_NewThread  
 -run_Select_OpenFiles_BlockThread  
