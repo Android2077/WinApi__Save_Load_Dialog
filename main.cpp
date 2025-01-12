@@ -8,13 +8,13 @@ int main()
   //Доступные методы:  
   //-run_Select_Folder_BlockThread  
   //-run_Select_Folder_NewThread  
-	//-run_Select_OpenFiles_BlockThread  
-	//-run_Select_OpenFiles_NewThread  
-	//-run_Select_SaveFiles_BlockThread  
-	//-run_Select_SaveFiles_NewThread  
+  //-run_Select_OpenFiles_BlockThread  
+  //-run_Select_OpenFiles_NewThread  
+  //-run_Select_SaveFiles_BlockThread  
+  //-run_Select_SaveFiles_NewThread  
   
  //Работает начиная с Windows Vista. Требуется C++11.  
-  
+ //Внутри используется подключение ShObjIdl.h - поэтому в свойствах проекта необходимо дополнительно подключить: shell32.lib и ole32.lib.
 
   WinApi__Save_Load_Dialog__class WinApi__Save_Load_Dialog__class_;
 
